@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import "../../responsive.css";
 import logo from "../../images/logo.png";
 import { FiSearch } from "react-icons/fi";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -32,6 +33,9 @@ const Header = () => {
             <Link to="/login">login</Link>
           </li>
         </ul>
+        <span className="hambarger">
+          <FaBars />
+        </span>
       </nav>
       {/* Search___Bar */}
       <div className="search__bar">

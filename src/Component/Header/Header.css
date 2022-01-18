@@ -16,7 +16,7 @@ nav {
   color: var(--primary__color);
 }
 .logo img {
-  width: 8%;
+  width: 100%;
 }
 .logo a p {
   margin-left: 0.5rem;
@@ -44,3 +44,6 @@ ul li a:hover {
   color: var(--primary__color);
 }
 /*Navigation Part Srat ======>>*/
+.hambarger {
+  display: none;
+}

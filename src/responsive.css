@@ -1,0 +1,16 @@
+/* For Tablte Version Responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ul li {
+    margin-left: 1rem;
+  }
+}
+
+/* For Mobile Version Responsive */
+@media screen and (max-width: 767px) {
+  .hambarger {
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+}
