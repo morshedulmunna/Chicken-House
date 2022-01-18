@@ -43,7 +43,28 @@ ul li a {
 ul li a:hover {
   color: var(--primary__color);
 }
-/*Navigation Part Srat ======>>*/
+/*Navigation Part End ======>>*/
 .hambarger {
   display: none;
+}
+
+/* Search Bar ======= */
+.search__bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search__bar input {
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin-left: 0.5rem;
+}
+.search__bar input::placeholder {
+  font-size: 0.9rem;
+}
+.search__bar input:focus {
+  font-size: 0.9rem;
+  outline: 0;
 }

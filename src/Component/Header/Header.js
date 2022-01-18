@@ -29,7 +29,7 @@ const Header = () => {
           <li>
             <Link to="/youtube">Youtube</Link>
           </li>
-          <li id="login">
+          <li className="btn login">
             <Link to="/login">login</Link>
           </li>
         </ul>
@@ -40,7 +40,7 @@ const Header = () => {
       {/* Search___Bar */}
       <div className="search__bar">
         <FiSearch />
-        <input type="search" placeholder="search here" />
+        <input type="search" placeholder="Search here" />
       </div>
     </section>
   );
