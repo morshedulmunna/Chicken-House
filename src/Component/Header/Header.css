@@ -68,3 +68,14 @@ ul li a:hover {
   font-size: 0.9rem;
   outline: 0;
 }
+
+/* log in Button */
+.login {
+  background: var(--primary__color);
+}
+.login:hover {
+  background: var(--secondary__color);
+}
+.login a:hover {
+  color: var(--dark__color);
+}

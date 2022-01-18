@@ -1,5 +1,6 @@
 :root {
-  --primary__color: #ff7737;
+  --primary__color: #fa641f;
+  --secondary__color: #f77c43;
   --dark__color: #222;
 }
 
@@ -18,7 +19,11 @@ body {
   width: 70%;
   margin: auto;
 }
-
+.btn {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 10px;
+}
 /* For Mobile Version Responsive */
 @media screen and (max-width: 767px) {
   .container {
