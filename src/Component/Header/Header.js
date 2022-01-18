@@ -27,7 +27,7 @@ const Header = () => {
             <Link to="/cookbook">Cookbook</Link>
           </li>
           <li>
-            <Link to="/youtube">Youtube</Link>
+            <Link to="/contact">Contact</Link>
           </li>
           <li className="btn login">
             <Link to="/login">login</Link>

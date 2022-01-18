@@ -42,10 +42,13 @@ ul li a {
 
 ul li a:hover {
   color: var(--primary__color);
+  transition: ease 0.4s;
 }
 /*Navigation Part End ======>>*/
 .hambarger {
   display: none;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 /* Search Bar ======= */
@@ -75,7 +78,9 @@ ul li a:hover {
 }
 .login:hover {
   background: var(--secondary__color);
+  transition: ease 0.4s;
 }
 .login a:hover {
   color: var(--dark__color);
+  transition: ease 0.4s;
 }
