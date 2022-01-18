@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+/* Logo Part Start ======>>*/
+.logo a {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary__color);
+}
+.logo img {
+  width: 8%;
+}
+.logo a p {
+  margin-left: 0.5rem;
+}
+/* Logo Part End ======>>*/
+
+/*Navigation Part Srat ======>>*/
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 5rem;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--dark__color);
+  padding: 0.2rem 0.5rem;
+}
+
+ul li a:hover {
+  color: var(--primary__color);
+}
+/*Navigation Part Srat ======>>*/
