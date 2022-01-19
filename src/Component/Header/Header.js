@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="container">
+    <section className="container header">
       <nav>
         {/* Logo Part */}
         <div className="logo">

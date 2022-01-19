@@ -1,3 +1,9 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 99999;
+}
 nav {
   display: flex;
   align-items: center;

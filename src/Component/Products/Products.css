@@ -1,10 +1,15 @@
-.products {
-  padding-top: 4rem;
-}
-.products h1 {
+.wrapper h1 {
   font-size: 4rem;
   font-weight: 400;
   margin-bottom: 2rem;
+}
+.discover {
+  padding: 2rem 0;
+  /* position: sticky;
+  top: 11.5rem;
+  width: 100%;
+  background-color: #fff;
+  z-index: 777; */
 }
 .eating__time {
   padding-bottom: 2rem;
@@ -31,10 +36,20 @@ hr {
   padding-top: 2rem;
   grid-gap: 2rem;
 }
+.filter {
+  position: sticky;
+  top: 0;
+}
 .product__wrapper .filter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .product__wrapper .filter p {
   padding-bottom: 2rem;
+}
+
+.product__item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
 }
