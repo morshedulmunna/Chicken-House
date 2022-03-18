@@ -92,8 +92,18 @@ ul li a:hover {
 }
 
 .eating__time {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
   padding-bottom: 2rem;
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .eating__time {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .eating__time a {
   font-size: 1.2rem;
@@ -104,9 +114,9 @@ ul li a:hover {
 .eating__time a:hover {
   color: blue;
 }
-.eating__time a:not(:first-child) {
-  margin-left: 5rem;
-}
+/* .eating__time a {
+  margin-left: 3rem;
+} */
 hr {
   border: 0.1px solid lightgray;
 }

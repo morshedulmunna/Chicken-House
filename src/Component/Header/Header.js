@@ -3,7 +3,7 @@ import "./Header.css";
 import "../../responsive.css";
 import logo from "../../images/logo.png";
 import { FiSearch } from "react-icons/fi";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -33,9 +33,6 @@ const Header = () => {
             <Link to="/login">login</Link>
           </li>
         </ul>
-        <span className="hambarger">
-          <FaBars />
-        </span>
       </nav>
       {/* Search___Bar */}
       <div className="search__bar">
@@ -44,12 +41,11 @@ const Header = () => {
       </div>
 
       <div className="eating__time">
-        <Link to="/all">All</Link>
+        <Link to="/">All</Link>
         <Link to="/breakfast">Breakfast</Link>
         <Link to="/lunch">Lunch</Link>
         <Link to="/dinner">Dinner</Link>
       </div>
-      <hr />
     </section>
   );
 };
