@@ -42,6 +42,14 @@ const Header = () => {
         <FiSearch />
         <input type="search" placeholder="Search here" />
       </div>
+
+      <div className="eating__time">
+        <Link to="/all">All</Link>
+        <Link to="/breakfast">Breakfast</Link>
+        <Link to="/lunch">Lunch</Link>
+        <Link to="/dinner">Dinner</Link>
+      </div>
+      <hr />
     </section>
   );
 };

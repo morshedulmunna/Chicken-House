@@ -90,3 +90,23 @@ ul li a:hover {
   color: var(--dark__color);
   transition: ease 0.4s;
 }
+
+.eating__time {
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+.eating__time a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--dark__color);
+  font-weight: 500;
+}
+.eating__time a:hover {
+  color: blue;
+}
+.eating__time a:not(:first-child) {
+  margin-left: 5rem;
+}
+hr {
+  border: 0.1px solid lightgray;
+}
